@@ -26,7 +26,7 @@ steps:
     sonarQubeRunAnalysis: false
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'target/*.war'
+    PathtoPublish: 'target/helloworld.war'
     ArtifactName: 'drop'
     publishLocation: 'Container'
 
